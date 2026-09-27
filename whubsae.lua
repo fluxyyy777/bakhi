@@ -25,7 +25,7 @@ end
 
 -- Dữ liệu bảo mật (Đã mã hóa Hex)
 local enc_key = "4e657443686561742d5977415a6e352d4e4f69414c62" -- Key: NetCheat-YwAZn5-NOiALb
-local enc_link = "68747470733a2f2f6c696e6b667265652e636c69636b2f732f776875622d696e7374616e742d737465616c2d6567677a3175316c6f6f6d756a726566386e" -- Link getkey mới
+local enc_link = "68747470733a2f2f67747261666669632e696f2f514d3933455a42" -- Link mới: https://gtraffic.io/QM93EZB
 local enc_script = "68747470733a2f2f7261772e67697468756275736572636f6e74656e742e636f6d2f726f6276787332342f667265656d69756d2f726566732f68656164732f6d61696e2f776875622e6c7561" -- Script gốc whub.lua
 
 -- Tạo ScreenGui
@@ -81,7 +81,7 @@ MainFrame.Parent = ScreenGui
 MainFrame.BackgroundColor3 = Color3.fromHex("#0A0B10")
 MainFrame.Position = UDim2.new(0.5, 0, 0.5, 0)
 MainFrame.AnchorPoint = Vector2.new(0.5, 0.5)
-MainFrame.Size = UDim2.new(0, 0, 0, 0) -- Co lại để làm animation phồng ra
+MainFrame.Size = UDim2.new(0, 0, 0, 0)
 MainFrame.Active = true
 MainFrame.Draggable = true
 MainFrame.ClipsDescendants = true
